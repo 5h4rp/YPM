@@ -4,7 +4,7 @@ const { google } = require('googleapis');
 // v3 of the blogger API, and using an API key to authenticate.
 const youtube = google.youtube({
   version: 'v3',
-  auth: 'AIzaSyAPrNOjSVW4O8ApWTXXBswtTKexA7NRuKk'
+  auth: 'key'
 });
 
 const params = {
